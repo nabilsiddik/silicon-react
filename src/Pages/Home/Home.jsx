@@ -4,6 +4,7 @@ import BrandSection from '../../Components/BrandSection/BrandSection'
 import FeaturesSection from '../../Components/FeaturesSection/FeaturesSection'
 import WorkSection from '../../Components/WorkSection/WorkSection'
 import CtaSection from '../../Components/CTASection/CtaSection'
+import TestimonialSection from '../../Components/TestimonialSection/TestimonialSection'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <FeaturesSection/>
       <WorkSection/>
       <CtaSection/>
+      <TestimonialSection/>
     </div>
   )
 }

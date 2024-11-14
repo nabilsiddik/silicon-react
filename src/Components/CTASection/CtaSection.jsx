@@ -3,7 +3,8 @@ import './CtaSection.css'
 import ctaImgRight from '../../assets/image (2).png'
 import ctaImgLeft from '../../assets/image (1).png'
 import { FaRegCheckCircle } from "react-icons/fa";
-
+import vectorIcon from '../../assets/Vectorr.png'
+import vectorIcon4 from '../../assets/Vector (4).png'
 
 const CtaSection = () => {
   return (
@@ -58,7 +59,7 @@ const CtaSection = () => {
             <div className="cta_icon_boxes flex gap-30">
               <div className="icon_box">
                 <div className="image_icon mt-5 mb-10">
-                  <img src="Images/Vectorr.png" alt="" />
+                  <img src={vectorIcon} alt="" />
                 </div>
                 <div className="texts">
                   <p className="mt-10">
@@ -69,7 +70,7 @@ const CtaSection = () => {
               </div>
               <div className="icon_box">
                 <div className="image_icon mt-5 mb-10">
-                  <img src="Images/Vector (4).png" alt="" />
+                  <img src={vectorIcon4} alt="" />
                 </div>
                 <div className="texts">
                   <p className="mt-10">

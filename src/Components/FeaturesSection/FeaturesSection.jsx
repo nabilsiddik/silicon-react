@@ -1,6 +1,12 @@
 import React from 'react'
 import './featuresSection.css'
 import featuresImage from '../../assets/image.png'
+import vectorIcon from '../../assets/Vectorr.png'
+import vectorIcon1 from '../../assets/Vector (1).png'
+import vectorIcon2 from '../../assets/Vector (2).png'
+import vectorIcon3 from '../../assets/Vector (3).png'
+import vectorIcon4 from '../../assets/Vector (4).png'
+import vectorIcon5 from '../../assets/Vector (5).png'
 
 const FeaturesSection = () => {
   return (
@@ -24,7 +30,7 @@ const FeaturesSection = () => {
           <div className="features_col_1">
             <div className="icon_box flex gap-20 mb-30">
               <div className="image_icon mt-5">
-                <img src="Images/Vectorr.png" alt="" />
+                <img src={vectorIcon} alt="" />
               </div>
               <div className="texts">
                 <h3>Easy Payments</h3>
@@ -36,7 +42,7 @@ const FeaturesSection = () => {
             </div>
             <div className="icon_box flex gap-20 mb-30">
               <div className="image_icon mt-5">
-                <img src="Images/Vector (2).png" alt="" />
+                <img src={vectorIcon2} alt="" />
               </div>
               <div className="texts">
                 <h3>Cost Statistics</h3>
@@ -48,7 +54,7 @@ const FeaturesSection = () => {
             </div>
             <div className="icon_box flex gap-20">
               <div className="image_icon mt-5">
-                <img src="Images/Vector (4).png" alt="" />
+                <img src={vectorIcon4} alt="" />
               </div>
               <div className="texts">
                 <h3>Regular Cashback</h3>
@@ -63,7 +69,7 @@ const FeaturesSection = () => {
           <div className="features_col_2">
             <div className="icon_box flex gap-20 mb-30">
               <div className="image_icon mt-5">
-                <img src="Images/Vector (1).png" alt="" />
+                <img src={vectorIcon1} alt="" />
               </div>
               <div className="texts">
                 <h3>Data Security</h3>
@@ -75,7 +81,7 @@ const FeaturesSection = () => {
             </div>
             <div className="icon_box flex gap-20 mb-30">
               <div className="image_icon mt-5">
-                <img src="Images/Vector (3).png" alt="" />
+                <img src={vectorIcon3} alt="" />
               </div>
               <div className="texts">
                 <h3>Support 24/7</h3>
@@ -87,7 +93,7 @@ const FeaturesSection = () => {
             </div>
             <div className="icon_box flex gap-20">
               <div className="image_icon mt-5">
-                <img src="Images/Vector (5).png" alt="" />
+                <img src={vectorIcon5} alt="" />
               </div>
               <div className="texts">
                 <h3>Top Standards</h3>
