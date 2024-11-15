@@ -7,7 +7,10 @@
 #faq .contact_box .icon{
     margin-bottom: 10px;
 }
-
+#faq .contact_box a .icon{
+    margin-bottom: 0; 
+    margin-top: 5px;
+}
 #faq .container .section_heading_mobile{
     display: none;
 }
@@ -43,4 +46,14 @@
 }
 #faq .accordion_content p{
     color: #5f5f63
+}
+#faq .accordion_header{
+    cursor: pointer;
+    padding-bottom: 10px;
+    z-index: 10;
+}
+#faq .accordion_content.hidden{
+    transform: translateY(-80px);
+    opacity: 0;
+    display: none;
 }
