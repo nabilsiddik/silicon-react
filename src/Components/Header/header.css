@@ -15,9 +15,12 @@
 #header .header_left .menu{
     margin-top: -3px;
 }
-#header .header_left .menu ul li a{
+#header .header_left .menu ul .nav_link{
     color: #000;
     font-weight: 500;
+}
+#header .header_left .menu ul .nav_link.active{
+    color: var(--primary-color)
 }
 #header .header_right{
     width: 40%;

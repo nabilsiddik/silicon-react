@@ -13,9 +13,9 @@ const Header = () => {
                 <img src={logo} alt="logo" />
                 </div>
                 <nav className="menu">
-                <ul>
-                    <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/contact'>Contact</NavLink>
+                <ul className='flex items-center gap-10'>
+                    <NavLink className='nav_link' to='/'>Home</NavLink>
+                    <NavLink className='nav_link' to='/contact'>Contact</NavLink>
                 </ul>
                 </nav>
             </div>
@@ -35,7 +35,7 @@ const Header = () => {
                     <span>
                         <i className="fa-regular fa-user" />
                     </span>
-                    Signup
+                    Sign inuUp
                     </button>
                 </div>
                 <div className="mobile_menu_icon">

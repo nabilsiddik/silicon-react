@@ -1,10 +1,11 @@
 import React from 'react'
+import ContactBanner from '../../Components/ContactBanner/ContactBanner'
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact page</h1>
-    </div>
+    <div id='contact_page'>
+      <ContactBanner/>
+    </div> 
   )
 }
 

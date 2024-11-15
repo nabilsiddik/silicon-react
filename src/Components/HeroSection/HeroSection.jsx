@@ -27,7 +27,7 @@ const HeroSection = () => {
                             spend &amp; manage money in your pocket.
                         </p>
                         <div className="app_download flex items-center gap-10">
-                            <div className="desktop_img">
+                            <div className="desktop_img flex items-center gap-5">
                                 <img id="app_store_desktop" src={appStoreLogo} alt="" />
                                 <img id="play_store_desktop" src={googlePlayLogo} alt="" />
                             </div>
